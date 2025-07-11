@@ -1,8 +1,9 @@
 source ~/.bash_profile
 
 alias ll="ls -al"
+alias python=python3
 # Add alias that tracks dotfiles
-alias config='/usr/bin/git --git-dir=/Users/heff/.myconf/ --work-tree/Users/heff'
+alias config='/usr/bin/git --git-dir=/Users/heff/.myconf/ --work-tree=/Users/heff'
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
